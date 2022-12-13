@@ -1,0 +1,24 @@
+.main__nav {
+  max-width: 80rem;
+  margin: auto;
+}
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem 2rem;
+}
+
+.navbar__container > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  background: #679bc9;
+  background: linear-gradient(to right, #679bc9 0%, #5d64c2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navLogo {
+  width: 50px;
+}

@@ -1,0 +1,29 @@
+.login__container {
+  max-width: 80rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5rem;
+}
+.login__graphic {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.login__graphic > div > p {
+  font-size: 3rem;
+  font-style: italic;
+  letter-spacing: 3px;
+  margin: 0 2rem;
+  color: #43457b;
+  font-weight: 100;
+}
+.login__graphic > div > p:last-child {
+  font-weight: 800;
+}
+
+.login__form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
