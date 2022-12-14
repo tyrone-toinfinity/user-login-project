@@ -20,7 +20,6 @@ export const Footer = () => {
           <li>Marketing</li>
           <li>Consulting</li>
           <li>Development</li>
-          <li>Design</li>
         </ul>
         <ul className="Contact">
           <li>
