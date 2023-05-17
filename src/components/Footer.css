@@ -21,6 +21,7 @@
   flex-direction: column;
   list-style: none;
   gap: 1rem;
+  text-align: center;
 }
 
 .footer__options > ul > li > h3 {
